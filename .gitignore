@@ -1,3 +1,4 @@
+# Laravel
 /vendor/
 node_modules/
 npm-debug.log
@@ -15,16 +16,28 @@ public/hot
 public_html/storage
 public_html/hot
 
-storage/*.key
+# Environment and sensitive files
 .env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
-
-/public/build
-/storage/pail
 .env.backup
 .env.production
-.phpactor.json
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache
+
+# Homestead
+Homestead.yaml
+Homestead.json
+
+# IDE and editor settings
+/.idea
+/.vscode
+/.fleet
+/.zed
+
+# Miscellaneous
 auth.json
+/storage/*.key
+/storage/pail
+/public/build
+/.vagrant
